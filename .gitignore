@@ -1,0 +1,37 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# ignore ALL binary output files
+*.pdb
+*.o
+*.ilk
+*.exe
+
+# ignore ALL files in ANY directory named build
+build/
+
+# ignore solution files
+*.vcxproj
+*.vcxproj.filters
+*.cmake
+*.sln
+*Cache.txt
+
+# ignore ALL files in ANY directory named CMakeFiles
+CMakeFiles/
+
+# ignore ALL files in ANY directory named followings
+Debug/
+Release/
+Win32/
+Win64/
+
+# ignore ALL files in ANY directory named *.dir
+*.dir/
+
+
+
+
