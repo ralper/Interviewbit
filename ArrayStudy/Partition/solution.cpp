@@ -75,7 +75,7 @@ int solve(int A, vector<int>& B)
 		--suffixIndex;
 	}
 
-	// traverse prefix and postfix array
+	// traverse prefix and suffix array
 	// and calculating ways
 	for(int i = 0; i < A; ++i)
 	{
@@ -92,12 +92,12 @@ int solve(int A, vector<int>& B)
 		}
 	}
 			 
-
+	// release memory 
 	if(prefixArray != NULL)
 	{
 		delete prefixArray;
 	}
-
+	// release memory
 	if(suffixArray != NULL)
 	{
 		delete suffixArray;
@@ -116,4 +116,3 @@ int main(int argc, char* argv[])
 	return 0;
 
 }
-
